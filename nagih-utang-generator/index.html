@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>NAGIH UTANG GENERATOR!</title>
+  </head>
+  <body>
+    
+    
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-warning">
+      <div class="container px-5 py-2">
+        <span class="navbar-brand mb-0 h1 fw-bolder">nagih-utang-generator</span>
+      </div>
+    </nav>
+
+    <div class="container px-5 py-5">
+      <form action="">
+        <div class="input-group mb-3">
+          <label class="input-group-text" for="mode">Pilih Mode</label>
+          <select class="form-select" id="mode">
+            <option value="1">Mode Sopan</option>
+            <option value="2">Mode Ngegas</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="nama" class="form-label">Nama kamu :</label>
+          <input type="text" class="form-control" id="nama" name="nama" placeholder="Misal : Si Jin Pink">
+        </div>
+        <div class="mb-3">
+          <label for="penghutang" class="form-label">Nama penghutang :</label>
+          <input type="text" class="form-control" id="penghutang" placeholder="Misal : Jotaro">
+        </div>
+        <div class="mb-3">
+          <label for="nominal" class="form-label">Nominal :</label>
+          <input type="text" class="form-control" id="nominal" placeholder="Misal: 1jt, 100000">
+        </div>
+        <div class="mb-3">
+          <label for="tujuan" class="form-label">Tujuan menagih :</label>
+          <textarea placeholder="Misal :  pengen beli truk, udah kanker, mau sedekah ke anak yatim, mau beli album TWICE, pengen nikahin Tzuyu, mau ke psikolog, dll." class="form-control" id="tujuan" name="tujuan" rows="5"></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="salam">
+          <label class="form-check-label" for="salam">Gunakan Assalamualaikum</label>
+        </div>
+        <button id="eksekusi" class="btn btn-primary">Konfirmasi</button>
+      </form>
+      
+      <div class="mb-5 mt-5">
+        <button id="salin" class="btn btn-primary">Salin Hasil</button>
+        <textarea class="form-control" id="hasil" rows="5"></textarea>
+        <div id="salinx"></div>
+      </div>
+
+    </div>
+      
+    <nav class="navbar navbar-light bg-warning">
+      <div class="container px-5 py-2">
+        <a class="navbar-brand mb-0"  href="https://web.facebook.com/dre264">web.facebook.com/dre264</a>
+      </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
