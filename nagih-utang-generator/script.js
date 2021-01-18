@@ -40,7 +40,7 @@ eksekusi.addEventListener('click',event => {
         if(data.salam==null){
             data.salam = "Permisi. ";
         }
-        text = `${data.salam}Ini saya ${data.nama}, sebelumnya mohon maaf apabila saya mengganggu. Tujuan saya menghubungi anda adalah untuk mengharapkan itikad baik anda. Untuk saat ini saya ${data.tujuan} dan sangat membutuhkan biaya sebesar ${data.nominal}. Apakah ${data.penghutang} bersedia untuk melunasi hutang sebesar ${data.tujuan} yang saya bebankan kepada anda? Terimakasih`;
+        text = `${data.salam}Ini saya ${data.nama}, sebelumnya mohon maaf apabila saya mengganggu. Tujuan saya menghubungi anda adalah untuk mengharapkan itikad baik anda. Untuk saat ini saya ${data.tujuan} dan sangat membutuhkan biaya sebesar ${data.nominal}. Apakah ${data.penghutang} bersedia untuk melunasi hutang sebesar ${data.nominal} yang saya bebankan kepada anda? Terimakasih.`;
         
     } else {
         if(data.salam==null){
