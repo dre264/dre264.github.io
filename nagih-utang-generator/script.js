@@ -46,7 +46,7 @@ eksekusi.addEventListener('click',event => {
         if(data.salam==null){
             data.salam = `woi ${data.penghutang}!!!!`;
         }
-        text = `${data.salam} masih hidup kau ${data.penghutang}??!... bayarlah itu hutang kau!!!.. jangan kau ngutang saja bisa, tapi bayar tidak bisa!!... macam mana kau ini ha?!! kau tau tidak?? aku ni ${data.tujuan}!!.. jadi kau ${data.penghutang} kapan mau bayar hutang ${data.nominal} ha?!! cepatla!!! aku ni butuh sekali uang itu, tolonglah kau ${data.penghutang} bayar itu hutang ${data.nominal} secepatnya.. janganlah aku tunggu sampai diri kau mati dulu ${data.penghutang} baru kau bayar itu hutang kau!! atau kalau kau masih lama biar kujual biji dan ginjal kau itu  ${data.penghutang}!!... macam mana hahh!!???... kutunggu malam ini bayarlah hutang ${data.nominal} itu!!`.toUpperCase();
+        text = `${data.salam} masih hidup kau ${data.penghutang}??!... bayarlah itu hutang kau!!!.. jangan kau ngutang saja bisa, tapi bayar tidak bisa!!... macam mana kau ini ha?!! kau tau tidak?? aku ni ${data.tujuan}!!.. jadi kau ${data.penghutang} kapan mau bayar hutang ${data.nominal} itu ha?!! cepatla!!! aku ni butuh sekali uang itu, tolonglah kau ${data.penghutang} bayar itu hutang ${data.nominal} secepatnya.. janganlah aku tunggu sampai diri kau mati dulu ${data.penghutang} baru kau bayar itu hutang kau!! atau kalau kau masih lama biar kujual biji dan ginjal kau itu  ${data.penghutang}!!... macam mana hahh!!???... kutunggu malam ini bayarlah hutang ${data.nominal} itu!!`.toUpperCase();
     }
         
         // .toUpperCase(caps)
